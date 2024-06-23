@@ -3,7 +3,7 @@ This is the repository for the masters thesis in Data Science at University of A
 The files in this repository are as follows:
 
 * word_lists = folder containing words used to perform co-occurrence counts in each bias category
-* EDA_Notebook = code for exploratory data analysis
+* EDA_notebook = code for exploratory data analysis
 * combined_scores_visualisation = code for barchart plot depicting differences in scores between bias categories
 * llmcorpuscounts.py = code to process text data from pre-training corpus to count occurrences & co-occurrences of words in bias categories from parquet files and write results to csv
 * llm_predictions_gender.py = code to use Falcon LLM to generate & validate predictions based on given contexts & questions, outputting results to JSON (code shows gender-occupation category with Falcon 7b, other categories are processed in a similar way with the instruct model as well)
